@@ -8,18 +8,14 @@
   IncognitoV2 no longer includes a built‑in execution bridge—you’ll need to implement your own.
 
 - **DataModel & Offsets**  
-  You’ll need to update its methods and class offsets—many of which you can get from the decompiled Roblox 2016 client.
+  You’ll need to update its methods and class offsets, many of which you can get from the decompiled Roblox 2016 client.
 
 - **Unfinished Leak**  
   This is an early, unfinished build. Expect bugs, incomplete features, and patches.
 
-## Learning & Contribution
+## Learning
 
-This repo is intended as a learning resource—study the implementation, compare to the 2016 Roblox internals, and improve safely. Your pull requests are welcome, but please:
-
-1. Fork the repo.  
-2. Create a branch for your changes (e.g. `add-exec-bridge`).  
-3. Submit a Pull Request with your updates.
+This repo is intended as a learning resource—study the implementation.
 
 ## Disclaimer
 
