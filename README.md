@@ -11,4 +11,4 @@ This repository is a resource for learning and understanding. We hope that by ma
 ## License
 Please ensure you **[read and follow the license](/LICENSE.md)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
 
-Thank you, - - [@piomanly](https://github.com/piomanly)
+Thank you, - [@piomanly](https://github.com/piomanly) (the original owner of incognito.)
