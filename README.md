@@ -13,9 +13,9 @@
 - **Unfinished Leak**  
   This is an early, unfinished build. Expect bugs, incomplete features, and patches.
 
-## Learning
+## Learning and Usage
 
-This repo is intended as a learning resource—study the implementation.
+This repository is a resource for learning and understanding. We hope that by making this code available, we can support the community in using and improving their own software safely and effectively.
 
 ## Disclaimer
 
