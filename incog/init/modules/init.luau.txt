@@ -1,0 +1,52 @@
+local players = game:GetService("Players")
+if not players.LocalPlayer then
+    players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+end
+
+local bridge = load_module("bridge")
+bridge.wait()
+
+local libraries = {
+    scripts = load_module("environment/scripts"),
+    filesystem = load_module("environment/filesystem"),
+    input = load_module("environment/input"),
+    misc = load_module("environment/misc")
+}
+
+for _, library in next, libraries do
+    for name, func in next, library do
+        rawset(getfenv(), name, func)
+    end
+end
+
+game.Players.LocalPlayer.Chatted:Connect(function(message)
+    if message == "test" then
+        printidentity()
+        print(game.CoreGui)
+        setthreadidentity(2)
+        print(getthreadidentity())
+        setthreadidentity(8)
+        print("bom")
+        print(game.CoreGui)
+        print("real identity is", getthreadidentity())
+        printidentity()
+    elseif message == "mb" then
+        print(messagebox("hey"))
+    elseif message:sub(1, 4) == "cmp " then
+        print(dumpstring(message:sub(4, #message)))
+    elseif message:sub(1, 5) == "copy " then
+        print(setclipboard(message:sub(5, #message)))
+    elseif message == "lz4" then
+        print(lz4compress("hi there woooow"))
+    elseif message == "getrunningscripts" then
+        for i, v in next, getrunningscripts() do
+            print(v:GetFullName())
+        end
+    elseif message == "scroll" then
+        mousescroll(100, 100) 
+    elseif message == "unc" then
+        load_module("unc")
+    elseif message == "sunc" then
+        load_module("sunc")
+    end
+end)
