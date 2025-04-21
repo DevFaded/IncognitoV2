@@ -2,7 +2,7 @@
 
 **IncognitoV2** is the official source code release from the original developers. This repository provides a single, malware‑free location for exploring, auditing, and extending the tool.
 
-## Crap You Have Too Add
+## Key Shit
 
 - **Execution Bridge**  
   IncognitoV2 no longer includes a built‑in execution bridge—you’ll need to implement your own.
