@@ -5,7 +5,7 @@
 ## Key Shit
 
 - **Execution Bridge**  
-  IncognitoV2 no longer includes a built‑in execution bridge—you’ll need to implement your own.
+  IncognitoV2 no longer includes a built‑in execution bridge, you’ll need to implement your own.
 
 - **DataModel & Offsets**  
   You’ll need to update its methods and class offsets, many of which you can get from the decompiled Roblox 2016 client.
