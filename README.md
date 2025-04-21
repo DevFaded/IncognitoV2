@@ -1,14 +1,34 @@
 # IncognitoV2
 
-This is the official source code of **IncognitoV2**. Brought to you by the developers behind the software. This repository was created to provide a central, safe, and malware-free location for accessing and reviewing the code.
+**IncognitoV2** is the official source code release from the original developers. This repository provides a single, malware‑free location for exploring, auditing, and extending the tool.
+
+## Crap You Have Too Add
+
+- **Execution Bridge**  
+  IncognitoV2 no longer includes a built‑in execution bridge—you’ll need to implement your own.
+
+- **DataModel & Offsets**  
+  You’ll need to update its methods and class offsets—many of which you can get from the decompiled Roblox 2016 client.
+
+- **Unfinished Leak**  
+  This is an early, unfinished build. Expect bugs, incomplete features, and patches.
+
+## Learning & Contribution
+
+This repo is intended as a learning resource—study the implementation, compare to the 2016 Roblox internals, and improve safely. Your pull requests are welcome, but please:
+
+1. Fork the repo.  
+2. Create a branch for your changes (e.g. `add-exec-bridge`).  
+3. Submit a Pull Request with your updates.
 
 ## Disclaimer
-Please note that the version of the software provided here was unfinished at the time of the leak. As such, it may be patched and unstable.
 
-## Learning and Usage
-This repository is a resource for learning and understanding. We hope that by making this code available, we can support the community in using and improving their own software safely and effectively.
+> This version was still in development. It may be unstable or incomplete, and will likely be patched in future releases.
 
 ## License
-Please ensure you **[read and follow the license](/LICENSE.md)** associated with this project. The license outlines the permissible uses and restrictions for this code. Adhering to these terms is crucial for legal use and further development of the software.
 
-Thank you, - [@piomanly](https://github.com/piomanly) (the original owner of incognito.)
+Before using or distributing IncognitoV2, **read and comply with the [LICENSE](/LICENSE.md)**. Adherence to the license terms is required for all derivatives.
+
+---
+
+> *Big thanks to [@piomanly](https://github.com/piomanly), creator of Incognito.*
