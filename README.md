@@ -10,9 +10,6 @@
 - **DataModel & Offsets**  
   You’ll need to update its methods and class offsets, many of which you can get from the decompiled Roblox 2016 client.
 
-- **Unfinished Leak**  
-  This is an early, unfinished build. Expect bugs, incomplete features, and patches.
-
 ## Learning and Usage
 
 This repository is a resource for learning and understanding. We hope that by making this code available, we can support the community in using and improving their own software safely and effectively.
